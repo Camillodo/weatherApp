@@ -1,0 +1,61 @@
+
+.weather__card{
+  max-width: 400px;
+  margin: 20vh auto;
+  padding:2em;
+  background-color: grey;
+  border-radius: 5px;
+  color:#FFF;
+  font: 16px Roboto, sans-serif;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  text-shadow: 1px 1px 65px rgb(51, 51, 51);
+  
+.weather__card__temp__info{
+  display: flex;
+  justify-content: space-between;
+}
+.weather__card__main__date{
+  font-size: 2rem;
+}
+.weather__card__description{
+  margin-top: -25%;
+  text-align: center;
+}
+.weather__card__icon__weather__type{
+  margin-top:-20%;
+  height:100px;
+  text-align: center;
+}
+
+.weather__card__main__temperature{
+  font-size: 7rem;
+  margin: 50px 0;
+}
+.weather__card__felt__temperature{
+  font-size: 3.5rem;
+}
+.weather__card__sup{
+  display: inline-block;
+  font-size: 2.5rem;
+}
+.weather__card__main__date--full{
+  font-size:50%;
+  font-weight:300;
+  margin-left:10px;
+}
+.weather__card__weatherspecs{
+  display:flex;
+  justify-content: space-between;
+  text-shadow: 1px 1px 4px #444;
+}
+.weather__card__weatherspecs__container{
+  text-align:center;
+}
+.weather__card__weatherspecs__icon{
+  height: 55px;
+  width:auto;
+}
+}
